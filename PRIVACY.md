@@ -1,26 +1,32 @@
 # Privacy Policy
 
-**Effective date:** February 28, 2026
+**Effective date:** March 4, 2026
 
-Feevio is designed with your privacy in mind. Here's the short version: we don't collect any of your data.
+Feevio is designed with your privacy in mind.
 
 ## Data Collection
 
 Feevio does **not** collect, transmit, or store any personal data. Specifically:
 
 - **No analytics or tracking** — We don't use any analytics frameworks or tracking pixels.
-- **No network requests** — The app never connects to the internet. It works entirely offline.
 - **No accounts** — There is no sign-up, login, or user profile of any kind.
-- **No advertising** — There are no ads and no ad-related SDKs.
-- **No third-party sharing** — No data is shared with anyone, period.
+- **No third-party data sharing** — Your data is not shared with anyone.
+
+## Advertising
+
+The free version of Feevio displays banner ads served by Google AdMob. AdMob may collect device identifiers and usage data in accordance with [Google's Privacy Policy](https://policies.google.com/privacy). Upgrading to Feevio Premium removes all ads and any associated data collection by the ad SDK.
 
 ## On-Device Storage
 
-Feevio uses UserDefaults (standard iOS on-device storage) solely to persist your calculator inputs between sessions. This data never leaves your device and is not accessible to us or any third party.
+Feevio uses UserDefaults (standard iOS on-device storage) to persist your calculator inputs, preferences, and calculation history. This data is stored in an App Group shared between the iOS app and the Apple Watch companion app. This data never leaves your device and is not accessible to us or any third party.
+
+## In-App Purchases
+
+Feevio uses Apple's StoreKit for in-app purchases. Purchase transactions are handled entirely by Apple. We do not process or store payment information.
 
 ## Children's Privacy
 
-Feevio does not collect data from anyone, including children under 13.
+Feevio does not knowingly collect data from anyone, including children under 13.
 
 ## Changes to This Policy
 
