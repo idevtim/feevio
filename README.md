@@ -18,18 +18,22 @@ A small business calculator toolkit for iOS and Apple Watch — ten essential fi
 ## Features
 
 - Real-time calculations as you type
+- Side-by-side comparison mode for "what if" scenarios (premium)
+- Save and recall favorite calculations (premium)
+- Interactive sliders for quick adjustments
 - Built-in fee presets for eBay, Amazon, Etsy, Shopify, Stripe, and PayPal
 - Custom fee presets you can save and reuse
 - Copy any result to clipboard with one tap
 - Calculation history (premium)
-- Apple Watch companion app (premium)
+- Apple Watch companion app with 6 calculators (premium)
 - Inputs persist between sessions
 - Configurable default tax rate
+- iPad-optimized layout with sidebar navigation
 - Full dark mode support
 
 ## Premium
 
-Feevio is free to use with ads. A one-time in-app purchase removes ads and unlocks premium features including calculation history and the Apple Watch companion app.
+Feevio is free to use with ads. A one-time in-app purchase removes ads and unlocks premium features including calculation history, saved scenarios, comparison mode, and the Apple Watch companion app.
 
 ## Requirements
 

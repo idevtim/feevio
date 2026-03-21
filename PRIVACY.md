@@ -18,7 +18,7 @@ The free version of Feevio displays banner ads served by Google AdMob. AdMob may
 
 ## On-Device Storage
 
-Feevio uses UserDefaults (standard iOS on-device storage) to persist your calculator inputs, preferences, and calculation history. This data is stored in an App Group shared between the iOS app and the Apple Watch companion app. This data never leaves your device and is not accessible to us or any third party.
+Feevio uses UserDefaults (standard iOS on-device storage) to persist your calculator inputs, preferences, calculation history, and saved scenarios. This data is stored in an App Group shared between the iOS app and the Apple Watch companion app. This data never leaves your device and is not accessible to us or any third party.
 
 ## In-App Purchases
 

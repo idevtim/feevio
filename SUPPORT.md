@@ -42,4 +42,6 @@ Yes — your calculator inputs persist between sessions using on-device storage.
 Feevio Premium is a one-time purchase that includes:
 - **Ad removal** — No more banner ads
 - **Calculation history** — Review past calculations
-- **Apple Watch app** — Quick calculations from your wrist
+- **Saved scenarios** — Bookmark favorite calculations for quick recall
+- **Comparison mode** — Compare two scenarios side by side
+- **Apple Watch app** — Quick calculations from your wrist (6 calculators)
