@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://apps.apple.com/app/feevio">
+    <img src="https://readme-typing-svg.demolab.com?font=SF+Pro+Display&weight=700&size=30&duration=2600&pause=700&color=007AFF&center=true&vCenter=true&width=620&height=70&lines=Ten+calculators.+One+clean+app.;Built+for+small+business.;Reverse+tax+in+one+tap.;Margin+vs+markup%2C+side+by+side.;iPhone.+iPad.+Apple+Watch." alt="Feevio — ten calculators, one clean app" />
+  </a>
+</p>
+
 # Feevio
 
 A small business calculator toolkit for iOS and Apple Watch — ten essential financial calculators in one clean, fast app.
