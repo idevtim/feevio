@@ -1,0 +1,208 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 240" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="title desc">
+  <title id="title">Feevio</title>
+  <desc id="desc">Ten calculators. One clean app. Built for small business.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#063e38"/>
+      <stop offset="55%" stop-color="#0F8775"/>
+      <stop offset="100%" stop-color="#1FBFA3"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="85%" cy="15%" r="80%">
+      <stop offset="0%" stop-color="#5EEAD4" stop-opacity="0.45"/>
+      <stop offset="55%" stop-color="#5EEAD4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="10%" cy="95%" r="70%">
+      <stop offset="0%" stop-color="#063e38" stop-opacity="0.6"/>
+      <stop offset="60%" stop-color="#063e38" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="screen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.18"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="cardClip">
+      <rect x="0" y="0" width="820" height="240" rx="22"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background card -->
+  <rect x="0" y="0" width="820" height="240" rx="22" fill="url(#bg)"/>
+  <rect x="0" y="0" width="820" height="240" rx="22" fill="url(#glow)"/>
+  <rect x="0" y="0" width="820" height="240" rx="22" fill="url(#glow2)"/>
+
+  <!-- Sheen sweep across the card -->
+  <g clip-path="url(#cardClip)">
+    <rect x="-280" y="0" width="280" height="240" fill="url(#sheen)" opacity="0.9">
+      <animateTransform attributeName="transform" type="translate"
+                        values="0 0; 1100 0; 1100 0"
+                        keyTimes="0; 0.45; 1"
+                        dur="10s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Border highlight -->
+  <rect x="0.5" y="0.5" width="819" height="239" rx="22" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1"/>
+
+  <!-- ========== LEFT: Logo + Wordmark + Tagline ========== -->
+
+  <!-- Equals-sign logo: two bars slide in from outside -->
+  <g transform="translate(50, 50)">
+    <rect x="0" y="0" width="70" height="16" rx="8" fill="#ffffff" opacity="0">
+      <animate attributeName="opacity"
+               values="0; 0; 1; 1; 1"
+               keyTimes="0; 0.02; 0.08; 0.98; 1"
+               dur="10s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate"
+                        values="-40 -12; 0 0; 0 0; 0 0"
+                        keyTimes="0; 0.08; 0.98; 1"
+                        dur="10s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="0" y="26" width="70" height="16" rx="8" fill="#ffffff" opacity="0">
+      <animate attributeName="opacity"
+               values="0; 0; 1; 1; 1"
+               keyTimes="0; 0.02; 0.08; 0.98; 1"
+               dur="10s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate"
+                        values="40 12; 0 0; 0 0; 0 0"
+                        keyTimes="0; 0.08; 0.98; 1"
+                        dur="10s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Wordmark "Feevio" -->
+  <text x="50" y="150"
+        font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', system-ui, sans-serif"
+        font-size="58"
+        font-weight="800"
+        letter-spacing="-1.8"
+        fill="#ffffff"
+        opacity="0">Feevio<animate attributeName="opacity"
+             values="0; 0; 1; 1; 1"
+             keyTimes="0; 0.08; 0.14; 0.98; 1"
+             dur="10s" repeatCount="indefinite"/></text>
+
+  <!-- Cycling tagline -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', system-ui, sans-serif"
+     font-size="20"
+     font-weight="500"
+     fill="#ffffff"
+     fill-opacity="0.92">
+    <text x="50" y="184" opacity="0">Know your numbers, in seconds.<animate attributeName="opacity"
+             values="0; 0; 1; 1; 0; 0"
+             keyTimes="0; 0.14; 0.18; 0.30; 0.34; 1"
+             dur="10s" repeatCount="indefinite"/></text>
+    <text x="50" y="184" opacity="0">Reverse tax in one tap.<animate attributeName="opacity"
+             values="0; 0; 1; 1; 0; 0"
+             keyTimes="0; 0.34; 0.38; 0.50; 0.54; 1"
+             dur="10s" repeatCount="indefinite"/></text>
+    <text x="50" y="184" opacity="0">Margin vs markup, side by side.<animate attributeName="opacity"
+             values="0; 0; 1; 1; 0; 0"
+             keyTimes="0; 0.54; 0.58; 0.70; 0.74; 1"
+             dur="10s" repeatCount="indefinite"/></text>
+    <text x="50" y="184" opacity="0">Split the bill. Even, every time.<animate attributeName="opacity"
+             values="0; 0; 1; 1; 0; 0"
+             keyTimes="0; 0.74; 0.78; 0.90; 0.94; 1"
+             dur="10s" repeatCount="indefinite"/></text>
+  </g>
+
+  <!-- Static subtitle pill -->
+  <g opacity="0">
+    <animate attributeName="opacity"
+             values="0; 0; 1; 1; 1"
+             keyTimes="0; 0.12; 0.18; 0.98; 1"
+             dur="10s" repeatCount="indefinite"/>
+    <rect x="50" y="202" width="296" height="24" rx="12" fill="#ffffff" fill-opacity="0.10" stroke="#ffffff" stroke-opacity="0.18" stroke-width="1"/>
+    <text x="198" y="218"
+          text-anchor="middle"
+          font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', system-ui, sans-serif"
+          font-size="11"
+          font-weight="600"
+          letter-spacing="1.2"
+          fill="#ffffff"
+          fill-opacity="0.85">TEN CALCULATORS · ONE CLEAN APP</text>
+  </g>
+
+  <!-- ========== RIGHT: Calculator display ========== -->
+  <g transform="translate(540, 45)" opacity="0">
+    <animate attributeName="opacity"
+             values="0; 0; 1; 1; 1"
+             keyTimes="0; 0.10; 0.16; 0.98; 1"
+             dur="10s" repeatCount="indefinite"/>
+
+    <!-- Screen background -->
+    <rect x="0" y="0" width="240" height="150" rx="18" fill="url(#screen)" stroke="#ffffff" stroke-opacity="0.18" stroke-width="1"/>
+
+    <!-- Live indicator dot, pulsing -->
+    <circle cx="20" cy="22" r="4" fill="#86efac">
+      <animate attributeName="opacity" values="1; 0.25; 1" dur="1.4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="32" y="26"
+          font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace"
+          font-size="10"
+          font-weight="600"
+          letter-spacing="1.4"
+          fill="#86efac"
+          fill-opacity="0.85">LIVE</text>
+
+    <!-- Scene 1: Reverse Tax -->
+    <g opacity="0" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">
+      <animate attributeName="opacity"
+               values="0; 0; 1; 1; 0; 0"
+               keyTimes="0; 0.14; 0.18; 0.30; 0.34; 1"
+               dur="10s" repeatCount="indefinite"/>
+      <text x="190" y="26" text-anchor="end" font-size="10" font-weight="600" letter-spacing="1.5" fill="#ffffff" fill-opacity="0.55">REVERSE TAX</text>
+      <text x="20" y="68" font-size="18" fill="#ffffff" fill-opacity="0.85">$108.50 &#247; 1.085</text>
+      <text x="20" y="115" font-size="28" font-weight="700" fill="#fde68a">= $100.00</text>
+      <rect x="178" y="93" width="9" height="24" fill="#fde68a">
+        <animate attributeName="opacity" values="1; 0; 1" keyTimes="0; 0.5; 1" dur="0.9s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- Scene 2: Discount -->
+    <g opacity="0" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">
+      <animate attributeName="opacity"
+               values="0; 0; 1; 1; 0; 0"
+               keyTimes="0; 0.34; 0.38; 0.50; 0.54; 1"
+               dur="10s" repeatCount="indefinite"/>
+      <text x="190" y="26" text-anchor="end" font-size="10" font-weight="600" letter-spacing="1.5" fill="#ffffff" fill-opacity="0.55">DISCOUNT</text>
+      <text x="20" y="68" font-size="18" fill="#ffffff" fill-opacity="0.85">$80.00 &#8722; 25%</text>
+      <text x="20" y="115" font-size="28" font-weight="700" fill="#fde68a">= $60.00</text>
+      <rect x="161" y="93" width="9" height="24" fill="#fde68a">
+        <animate attributeName="opacity" values="1; 0; 1" keyTimes="0; 0.5; 1" dur="0.9s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- Scene 3: Margin / Markup -->
+    <g opacity="0" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">
+      <animate attributeName="opacity"
+               values="0; 0; 1; 1; 0; 0"
+               keyTimes="0; 0.54; 0.58; 0.70; 0.74; 1"
+               dur="10s" repeatCount="indefinite"/>
+      <text x="190" y="26" text-anchor="end" font-size="10" font-weight="600" letter-spacing="1.5" fill="#ffffff" fill-opacity="0.55">MARGIN / MARKUP</text>
+      <text x="20" y="68" font-size="18" fill="#ffffff" fill-opacity="0.85">$60 cost &#8594; $100</text>
+      <text x="20" y="115" font-size="26" font-weight="700" fill="#fde68a">40% / 67%</text>
+      <rect x="165" y="95" width="9" height="22" fill="#fde68a">
+        <animate attributeName="opacity" values="1; 0; 1" keyTimes="0; 0.5; 1" dur="0.9s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- Scene 4: Tip Split -->
+    <g opacity="0" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">
+      <animate attributeName="opacity"
+               values="0; 0; 1; 1; 0; 0"
+               keyTimes="0; 0.74; 0.78; 0.90; 0.94; 1"
+               dur="10s" repeatCount="indefinite"/>
+      <text x="190" y="26" text-anchor="end" font-size="10" font-weight="600" letter-spacing="1.5" fill="#ffffff" fill-opacity="0.55">TIP SPLIT</text>
+      <text x="20" y="68" font-size="18" fill="#ffffff" fill-opacity="0.85">$84.50 + 20% &#247; 4</text>
+      <text x="20" y="115" font-size="28" font-weight="700" fill="#fde68a">= $25.35 ea</text>
+      <rect x="209" y="93" width="9" height="24" fill="#fde68a">
+        <animate attributeName="opacity" values="1; 0; 1" keyTimes="0; 0.5; 1" dur="0.9s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+</svg>
