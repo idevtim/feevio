@@ -29,10 +29,10 @@ A small business calculator toolkit for iOS and Apple Watch — ten essential fi
 - **Reverse Tax** — Find the pre-tax price from a tax-inclusive total
 - **Sales Tax** — Calculate tax amount and total from a pre-tax price
 - **Discount** — See the final price and savings after a percentage discount
-- **Margin vs Markup** — See profit margin and markup side by side
-- **Break-Even** — Calculate how many units you need to sell to cover costs
+- **Margin vs Markup** — See profit margin and markup side by side, with overhead folded into your cost basis
+- **Break-Even** — Calculate how many units you need to sell to cover your fixed costs and overhead
 - **Marketplace Fee** — Compute platform fees and your net amount
-- **Net Payout** — Get your true profit after costs, shipping, and fees
+- **Net Payout** — Get your true profit after costs, shipping, fees, and overhead
 - **Hourly Rate** — Find the hourly rate you need to hit your income goal
 - **% Change** — Calculate the percentage increase or decrease between two values
 - **Tip Split** — Split a bill with tip evenly among a group
@@ -40,6 +40,7 @@ A small business calculator toolkit for iOS and Apple Watch — ten essential fi
 ## Features
 
 - Real-time calculations as you type
+- Overhead input to factor labor, packaging, and fixed costs into Margin/Markup, Net Payout, and Break-Even — as a flat dollar amount or a percentage
 - Side-by-side comparison mode for "what if" scenarios (premium)
 - Save and recall favorite calculations (premium)
 - Interactive sliders for quick adjustments
@@ -47,7 +48,7 @@ A small business calculator toolkit for iOS and Apple Watch — ten essential fi
 - Custom fee presets you can save and reuse
 - Copy any result to clipboard with one tap
 - Calculation history (premium)
-- Apple Watch companion app with 6 calculators (premium)
+- Apple Watch companion app with 6 calculators, including overhead on Margin/Markup (premium)
 - Inputs persist between sessions
 - Configurable default tax rate
 - iPad-optimized layout with sidebar navigation
