@@ -8,11 +8,11 @@ If you have a question, found a bug, or want to request a feature, [open an issu
 
 ### What calculators are included?
 
-Feevio includes ten calculators built for small business sellers:
+Feevio includes ten calculators built for sellers, freelancers, and everyday money math:
 
 1. **Reverse Tax** — Find the pre-tax price from a tax-inclusive total
 2. **Sales Tax** — Calculate tax amount and total from a pre-tax price
-3. **Discount** — See the final price and savings after a percentage discount
+3. **Discount** — Take a percentage or a flat amount off any price and see what you save
 4. **Margin vs Markup** — See profit margin and markup side by side
 5. **Break-Even** — Calculate how many units you need to sell to cover costs
 6. **Marketplace Fee** — Compute platform fees and your net amount
@@ -27,11 +27,15 @@ No. Feevio does not collect, transmit, or store any personal data. The free vers
 
 ### What devices does Feevio support?
 
-Feevio requires iOS 17.0 or later. The Apple Watch companion app requires watchOS 10.0 or later and is included with Feevio Premium.
+Feevio runs on iPhone and iPad with iOS 17.0 or later, including foldable iPhones. The Apple Watch companion app requires watchOS 10.0 or later and is included with Feevio Premium.
 
 ### Is Feevio free?
 
 Yes — Feevio is free to download and use. A one-time in-app purchase removes ads and unlocks premium features including calculation history and the Apple Watch companion app.
+
+### How do I change which calculators are on my home screen?
+
+Pin up to six calculators to your home screen. Rearrange or change your pins from **Settings > Home**, where you can also replay the welcome tour to have Feevio suggest pins based on what you do.
 
 ### Do my inputs get saved?
 
